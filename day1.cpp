@@ -37,7 +37,7 @@ int isNumberInText(std::string s){
 int main(){
     int fDigit, lDigit, calibVal = 0, sum = 0, textNumber;
     std::vector<std::string> lines;
-    lines = fileLinesToStringVector(std::string("inputs/input_day1"));
+    lines = fileLinesToStringVector(std::string("inputs/input_day1.in"));
     for (auto line : lines){
         line = line + "   ";
         fDigit = -1;

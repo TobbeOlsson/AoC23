@@ -7,7 +7,7 @@
 int main(){
     int sumOfIds = 0, sumOfGamePowers = 0;
     std::vector<std::string> lines;
-    lines = fileLinesToStringVector(std::string("inputs/input_day2"));
+    lines = fileLinesToStringVector(std::string("inputs/input_day2.in"));
     for (std::string line : lines){
         int blue = 0, red = 0, green = 0;
         int gameId, gamePower;
