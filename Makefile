@@ -3,7 +3,7 @@ CC = g++
 
 CFLAGS  = -g -fsanitize=address -Wall
 
-TARGET = day1 day2 day3 day4
+TARGET = day1 day2 day3 day4 day6
 
 all: $(TARGET)
 
